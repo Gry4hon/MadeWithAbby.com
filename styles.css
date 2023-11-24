@@ -1,0 +1,32 @@
+@font-face {
+    font-family: FlameFONT;
+    src: url(fonts/Hothead.ttf);
+}
+
+
+.good_morning{
+    margin: 0px;
+    background-image: url(im/FLAMESSSS.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hatred{
+    font-family: FlameFONT;
+    color: red;
+    text-align: center;
+}
+
+.n_dad{
+    margin-top: -25px;
+}
+
+.josh_button{
+    font-family: FlameFONT;
+    color: firebrick;
+    font-size: 200px;
+}
+
+#whistle{
+    display: none;
+}
