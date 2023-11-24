@@ -1,3 +1,7 @@
+
+
+
+
 @font-face {
     font-family: FlameFONT;
     src: url(fonts/Hothead.ttf);
@@ -5,10 +9,13 @@
 
 
 .good_morning{
-    margin: 0px;
     background-image: url(im/FLAMESSSS.gif);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .hatred{
@@ -31,6 +38,6 @@
     font-size: 200px;
 }
 
-#whistle{
+#Whistlee{
     display: none;
 }
