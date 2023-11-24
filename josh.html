@@ -15,17 +15,22 @@
     <img src="im/lmaooojosh2.jpeg">
     
     
-    <!-- <embed name="Whistlee" src="sounds/whitlseee2.wav" loop="true" hidden="true" autostart="true">
-     -->
+    <embed name="Whistlee" src="sounds/whitlseee2.wav" loop="true" hidden="true" autostart="true">
+    
 
      <audio id="Whistlee" src="sounds/whitlseee2.wav">
         
      </audio>
 
      <script>
-      document.addEventListener("DOMContentLoaded",function(){
-        let whistl = document.getElementById("Whistlee");
-        whistl.play();
+      let playingAudio = false;
+
+      document.addEventListener("touchstart",function(){
+        if(!playingAudio){
+          let whistl = document.getElementById("Whistlee");
+          whistl.play();
+          playingAudio = true;
+        }
       });
      </script>
     
