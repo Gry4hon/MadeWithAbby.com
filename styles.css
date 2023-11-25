@@ -1,21 +1,38 @@
-
-
-
-
 @font-face {
     font-family: FlameFONT;
     src: url(fonts/Hothead.ttf);
 }
 
+/*Web Resizing*/
+@media only screen and (min-width: 850px) {
+    .josh_button{
+        font-family: FlameFONT;
+        color: firebrick;
+        font-size: 200px;
+    }
+}
+
+
+/*Mobile resizing*/
+@media only screen and (max-width: 850px) {
+    .josh_button{
+        font-family: FlameFONT;
+        color: firebrick;
+        font-size: 200px;
+        width: 100%;
+        text-align: center;
+        word-wrap: break-word;
+    }
+}
 
 .good_morning{
     background-image: url(im/FLAMESSSS.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
 .hatred{
@@ -32,11 +49,6 @@
     margin-top: -55px;
 }
 
-.josh_button{
-    font-family: FlameFONT;
-    color: firebrick;
-    font-size: 200px;
-}
 
 #Whistlee{
     display: none;
